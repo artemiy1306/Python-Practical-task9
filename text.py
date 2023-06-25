@@ -29,8 +29,6 @@ exit_prog = 'До свидания!'
 def add_successful(name: str) -> str:
     return f'Контакт {name} успешно добавлен в книгу!'
 
-def del_cont(name: str) -> str:
-    return f'Контакт {name} успешно удален!'
 
 search_word = 'Введите строку для поиска: '
 index_remove = 'Введите ID контакта, который хотите удалить: '
